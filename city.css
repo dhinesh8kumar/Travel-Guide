@@ -41,6 +41,7 @@
 .text h1{
     font-size: 30px;
     font: bold;
+    
 }
 
 
@@ -87,6 +88,7 @@
     opacity: 0;
     transform: translate(-50%);
     transition: 1s ease;
+    color: white;
 }
 hr{
     background: #fff;
@@ -97,6 +99,7 @@ hr{
 }
 .desc p{
     font-size: 14px;
+    color: white;
 }
 .north:hover .desc{
      bottom: 40%;
