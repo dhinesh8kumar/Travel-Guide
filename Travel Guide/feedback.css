@@ -1,0 +1,95 @@
+
+body{
+    background: url('images/Sprinkle.svg');
+    background-size: cover;
+    
+    
+}
+.white-box{
+    width: 70%;
+    height: 70%;
+    background: #009688;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.75;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.4),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.6);
+}
+.text{
+    text-align: left;
+    position: relative;
+}
+.text h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.form{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    line-height: 35px;
+    
+    
+}
+.b{
+    border-radius: 20px;
+}
+.button{
+    background: #08554d;
+    border: 1px solid #07645b;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+    transition: 1s;
+    
+}
+.rating{
+    line-height: 40px;
+    
+}
+
+
+.svg-image{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  height: 35em;
+  
+}
+.svg-image img{
+  width: 27vw;
+
+}
+.home{
+    position: absolute;
+    right: 75px;
+    padding: 5px;
+}
+
+
+
